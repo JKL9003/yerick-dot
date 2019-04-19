@@ -10,6 +10,10 @@ git config --global user.name "EricWRogers"
 
 git config --global credential.helper store
 
+mkdir ~/Git
+cd /Git
+git clone https://github.com/EricWRogers/SoftwareEngineeringClass.git 
+
 # VS_Code
 sudo snap install code --classic --stable
 
