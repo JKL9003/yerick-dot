@@ -10,16 +10,23 @@ git config --global user.name "EricWRogers"
 
 git config --global credential.helper store
 
-mkdir ~/Git
-cd /Git
-git clone https://github.com/EricWRogers/SoftwareEngineeringClass.git 
+#cd ../
+#git clone https://github.com/EricWRogers/SoftwareEngineeringClass.git 
 
 # VS_Code
 sudo snap install code --classic --stable
 
 # DotNet
-sudo snap install dotnet-sdk --classic
-sudo snap alias dotnet-sdk.dotnet dotnet
+wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+sudo add-apt-repository universe
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install dotnet-sdk-2.2
+
+# DotNet Core
+#sudo snap install dotnet-sdk --classic
+#sudo snap alias dotnet-sdk.dotnet dotnet
 
 # Slack
 sudo snap install slack --classic
