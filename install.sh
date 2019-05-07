@@ -9,6 +9,8 @@ git config --global user.email "yerick147083@gmail.com"
 git config --global user.name "EricWRogers"
 
 git config --global credential.helper store
+# Set git default editor to vim
+sudo git config --system core.editor vim
 
 #cd ../
 #git clone https://github.com/EricWRogers/SoftwareEngineeringClass.git 
