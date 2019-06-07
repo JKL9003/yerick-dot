@@ -29,3 +29,6 @@ sudo snap install slack --classic
 
 # Discord
 sudo snap install discord --classic
+
+# GitKraken
+sudo snap install gitkraken --classic --stable
