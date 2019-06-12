@@ -3,7 +3,7 @@
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install git liblua5.3* libsdl2* synaptic steam vim snapd-xdg-open
+sudo apt-get install git git-lfs liblua5.3* libsdl2* synaptic steam vim snapd-xdg-open
 
 git config --global user.email "Justin.Liles@Live.com"
 git config --global user.name "Justin Liles"
@@ -30,5 +30,5 @@ sudo snap install slack --classic
 # Discord
 sudo snap install discord --classic
 
-# GitKraken
-sudo snap install gitkraken --classic --stable
+# GitKraken -- not showing up icon. had to Download it
+#sudo snap install gitkraken --classic
