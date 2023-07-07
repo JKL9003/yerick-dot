@@ -17,18 +17,18 @@ sudo git config --system core.editor vim
 sudo snap install code --classic --stable
 
 # DotNet
-wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-sudo add-apt-repository universe
-sudo apt-get install apt-transport-https
-sudo apt-get update
-sudo apt-get install dotnet-sdk-2.2
+#wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
+#sudo dpkg -i packages-microsoft-prod.deb
+#sudo add-apt-repository universe
+#sudo apt-get install apt-transport-https
+#sudo apt-get update
+#sudo apt-get install dotnet-sdk-2.2
 
 # Slack
-sudo snap install slack --classic
+#sudo snap install slack --classic
 
 # Discord
-sudo snap install discord --classic
+#sudo snap install discord --classic
 
 # GitKraken -- not showing up icon. had to Download it
 #sudo snap install gitkraken --classic
